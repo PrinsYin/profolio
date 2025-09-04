@@ -1,8 +1,38 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My Blog"
+baseURL = "https://prinsyin.github.io/profolio/"
 theme = "hugo-coder"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 
 [params]
-  author = "你的名字"
-  description = "Just another Hugo site"
+  customCSS = ["css/custom.css"]
+  author = "Zhuoran Yin"
+  description = "Welcome to my Hugo Blog"
+  keywords = "blog,developer,personal"
+  avatarURL = "snoopy.jpg"
+  info = "CS @ CMU · Developer at SGLang RL Team"
+  dateFormat = "2006-01-02"
+  hideColorSchemeToggle = false
+  
+  
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/zhuorany"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/PrinsYin"
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "/posts/"
