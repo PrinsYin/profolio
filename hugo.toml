@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "hugo-coder"
+
+[params]
+  author = "你的名字"
+  description = "Just another Hugo site"
