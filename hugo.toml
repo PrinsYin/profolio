@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
   description = "Welcome to my Hugo Blog"
   keywords = "blog,developer,personal"
   avatarURL = "snoopy.jpg"
-  info = "CS @ CMU · Developer at SGLang RL Team"
+  info = "CS @ CMU  ·  Developer @ SGLang RL Team"
   dateFormat = "2006-01-02"
   hideColorSchemeToggle = false
   
